@@ -50,7 +50,7 @@ buttonPrev.addEventListener('click', () => {
 });
 
 buttonNext.addEventListener('click', () => {
-    if(searchPokemon > 1) {
+    if(searchPokemon >= 0) {
         searchPokemon += 1;
         renderPokemon(searchPokemon);
     }
